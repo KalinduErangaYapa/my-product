@@ -16,13 +16,13 @@ class UserSeeder extends Seeder
         $array = [
             [
                 'name' => 'System Admin',
-                'email' => 'admin@axcertro.com',
-                'password' => Hash::make('Axcertro#Our1st'),
+                'email' => 'kalinduyapa@gmail.com',
+                'password' => Hash::make('#Our1st'),
             ],
             [
                 'name' => 'System Admin',
-                'email' => 'admin@brotherstech.com',
-                'password' => Hash::make('Brotherstech#Our1st'),
+                'email' => 'admin@product.com',
+                'password' => Hash::make('Product#our1st'),
             ],
         ];
         $userRepository = app()->make(UserRepository::class);
